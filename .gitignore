@@ -1,0 +1,20 @@
+# Ignore the data folder and any pickle files
+data/
+*.pkl
+
+# Ignore virtual environment files
+nbaenv/
+__pycache__/
+*.pyc
+
+# Ignore system files and metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.swp
+
+# Ignore any SQLite database backup or temporary files (optional)
+*.sqlite-shm
+*.sqlite-wal
